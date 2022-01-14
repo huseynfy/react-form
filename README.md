@@ -1,15 +1,15 @@
-# Welcome!
+# Welcome, 👋🏼❕
 
 This form submission project was created and developed by me using React JS.
 
-## Description
+## Description ℹ️
 This is a basic form for getting necessary information about a user. Users are not allowed to click submit button until every input is fulfilled. After successful submission, a user gets success message. Occupation and state data are coming from an endpoint and users are allowed to select only one option.
 
-## React Hooks
+## React Hooks 🪝
 I used useState and useEffect hooks as well as my own custom hook in this app.
 
 
-## Available Scripts
+## Available Scripts 💻
 
 In the project directory, you can run:
 
