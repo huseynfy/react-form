@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import useInput from './hooks/useInput';
+import useInput from '../hooks/useInput';
 import axios from 'axios';
 import '../../App.css';
 
