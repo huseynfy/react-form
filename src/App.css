@@ -1,38 +1,118 @@
-.App {
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+  background-color: #22223b;
+}
+.container{
+  width: 1200px;
+  height: 100vh;
+  margin: auto;
+}
+.centered{
   text-align: center;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.myform{
+  margin-top: 40px;
+  height: 500px;
+  width: 790px;
+  float: right;
+}
+.inputs{
+  padding: 8px;
+  border: none;
+  width: 380px;
+  height: 40px;
+  border-radius: 8px;
+  background-color: #f2e9e4;
+  font-size: 16px;
+  display: block;
+}
+.errorInput{
+  background-color: #e97763;
+}
+.labels{
+  color: #f2e9e4;
+  display: block;
+  margin: 8px 0;
+}
+.text{
+  font-size: 40px;
+  color: #fff;
+  margin-top: 48px;
+}
+.btnsave{
+  display: block;
+  height: 40px;
+  width: 200px;
+  color: #22223b;
+  background-color: #fff;
+  font-size: 18px;
+  font-weight: 600;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  margin: 32px 90px;
+  float: left;
+}
+.btnsave:disabled:active,
+.btnsave:disabled:hover,
+.btnsave:disabled{
+  cursor: not-allowed;
+  background-color:rgb(85, 84, 84);
+  color: #fff;
+}
+.errorText{
+  color: rgb(249, 12, 12);
+  font-size: 16px;
+  font-weight: bold;
+  margin-top: 8px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+::placeholder{
+  color: rgb(85, 84, 84);
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.selection{
+  display: block;
+  margin: 8px 8px 8px 0;
+  width: 380px;
+  height: 40px;
+  border: none;
+  border-radius: 8px;
+  box-shadow: rgb(214, 214, 214) 0.5px 0.5px 0.5px 1px;
+  padding: 8px;
+  font-size: 16px;
+  color: rgb(85, 84, 84);
+  background: #f2e9e4;
+  background-repeat: no-repeat; 
+  background-position: right;
+  background-size: 30px;
 }
-
-.App-link {
-  color: #61dafb;
+.errorSelection{
+  color: rgb(85, 84, 84);
+  background-color: #e97763;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.successMessage{
+  margin: 80px 0px 0 450px;
+  width: 300px;
+  color: #fff;
+  background-color: #31c48d;
+  text-align: center;
+  padding: 16px;
+  font-size: 18px;
+  font-weight: 600;
+  border-radius: 5px;
+}
+.errorMessage{
+  margin: 80px 0px 0 450px;
+  width: 300px;
+  color: #fff;
+  background-color: #e63946;
+  text-align: center;
+  padding: 16px;
+  font-size: 18px;
+  font-weight: 600;
+  border-radius: 5px;
 }
