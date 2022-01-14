@@ -1,10 +1,21 @@
-# Getting Started with Create React App
+# Welcome!
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This form submission project was created and developed by me using React JS.
+
+## Description
+This is a basic form for getting necessary information about a user. Users are not allowed to click submit button until every input is fulfilled. After successful submission, a user gets success message. Occupation and state data are coming from an endpoint and users are allowed to select only one option.
+
+## React Hooks
+I used useState and useEffect hooks as well as my own custom hook in this app.
+
 
 ## Available Scripts
 
 In the project directory, you can run:
+
+### `npm install`
+
+To install the app into your machine.
 
 ### `npm start`
 
@@ -13,11 +24,6 @@ Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
 The page will reload when you make changes.\
 You may also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
 ### `npm run build`
 
