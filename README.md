@@ -13,10 +13,6 @@ I used useState and useEffect hooks as well as my own custom hook in this app.
 
 In the project directory, you can run:
 
-### `npm install`
-
-To install the app into your machine.
-
 ### `npm start`
 
 Runs the app in the development mode.\
