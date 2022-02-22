@@ -111,6 +111,7 @@ export default function Form(){
                 ))}
             </select>
             {stateInputHasError && <p className='errorText'>Please select a state</p>}
+            <br/>
             <button type='submit' disabled={!formIsValid} className='btnsave'>Submit</button>
         </form>
         </>

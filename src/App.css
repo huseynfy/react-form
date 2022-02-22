@@ -6,29 +6,21 @@
 body{
   background-color: #22223b;
 }
-.container{
-  width: 1200px;
-  height: 100vh;
-  margin: auto;
-}
 .centered{
   text-align: center;
 }
 .myform{
+  text-align: center;
   margin-top: 40px;
-  height: 500px;
-  width: 790px;
-  float: right;
 }
 .inputs{
   padding: 8px;
   border: none;
-  width: 380px;
+  width: 300px;
   height: 40px;
-  border-radius: 8px;
+  border-radius: 5px;
   background-color: #f2e9e4;
   font-size: 16px;
-  display: block;
 }
 .errorInput{
   background-color: #e97763;
@@ -37,6 +29,8 @@ body{
   color: #f2e9e4;
   display: block;
   margin: 8px 0;
+  font-size: 18px;
+  font-weight: 600;
 }
 .text{
   font-size: 40px;
@@ -44,8 +38,7 @@ body{
   margin-top: 48px;
 }
 .btnsave{
-  display: block;
-  height: 40px;
+  height: 50px;
   width: 200px;
   color: #22223b;
   background-color: #fff;
@@ -54,8 +47,7 @@ body{
   border: none;
   border-radius: 8px;
   cursor: pointer;
-  margin: 32px 90px;
-  float: left;
+  margin: 32px 0;
 }
 .btnsave:disabled:active,
 .btnsave:disabled:hover,
@@ -75,12 +67,11 @@ body{
   color: rgb(85, 84, 84);
 }
 .selection{
-  display: block;
   margin: 8px 8px 8px 0;
-  width: 380px;
+  width: 300px;
   height: 40px;
   border: none;
-  border-radius: 8px;
+  border-radius: 5px;
   box-shadow: rgb(214, 214, 214) 0.5px 0.5px 0.5px 1px;
   padding: 8px;
   font-size: 16px;
@@ -95,7 +86,7 @@ body{
   background-color: #e97763;
 }
 .successMessage{
-  margin: 80px 0px 0 450px;
+  margin: 32px auto;
   width: 300px;
   color: #fff;
   background-color: #31c48d;
@@ -106,7 +97,7 @@ body{
   border-radius: 5px;
 }
 .errorMessage{
-  margin: 80px 0px 0 450px;
+  margin: 32px auto;
   width: 300px;
   color: #fff;
   background-color: #e63946;
